@@ -1,0 +1,443 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#nav1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+#div2{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#div2>li{
+    list-style: none;
+}
+#div2>li>button{
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f0390f;
+}
+#div3{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#div3>li{
+    list-style: none;
+}
+
+#content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+#div4>a{
+    text-decoration: none;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    font-size: 25px;
+    color: black;
+}
+#div4{
+    width: 40%;
+    height: 450px;
+    position: relative;
+    right: 370px;
+    top: 30px;
+}
+#div4>img{
+    position: absolute;
+    top: 50px;
+}
+#div4>h3{
+    position: absolute;
+    left: 5px;
+    top: 130px;
+    font-size: 70px;
+}
+#div5{
+    width: 60%;
+    height: 400px;
+    background-image: url("images/banner_img.png");
+    background-repeat: no-repeat;
+    background-size: 80% 400px;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+#section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+}
+#section>#div6{
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   background-color: #3e0bce;
+   position: absolute;
+   left: 10px;
+}
+#div7{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #3e0bce;
+    position: absolute;
+    left: 60px;
+ }
+
+ #div8{
+    width: 100%;
+    height: 100px;
+ }
+ #div8>center>h2{
+    font-size: 45px;
+    font-weight: 50px;
+ }
+ #div8>center>p{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    font-size: 20px;
+ }
+ #section1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: relative;
+ }
+ #section1>#div9{
+    width: 30%;
+    height: 600px;
+    background-color: #f0390f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+ }
+ #div9>img{
+    position: absolute;
+    top: 50px;
+ }
+ #div9>h2{
+   position: absolute;
+   bottom: 10px;
+   left: 10px;
+ }
+ #div9>h3{
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    color: aliceblue;
+ }
+ #div9>p{
+    position: absolute;
+    bottom: 80px;
+    font-size: 30px;
+    color: aliceblue;
+ }
+
+ #section1>#div10{
+    width: 30%;
+    height: 600px;
+    background-color: #3e0bce;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+ }
+ #div10>img{
+    position: absolute;
+    top: 50px;
+ }
+ #div10>h3{
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    color: aliceblue;
+ }
+ #div10>p{
+    position: absolute;
+    bottom: 80px;
+    font-size: 30px;
+    color: aliceblue;
+ }
+ #section1>#div11{
+    width: 30%;
+    height: 600px;
+    background-color: #f0390f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+ }
+ #div11>img{
+    position: absolute;
+    top: 50px;
+ }
+ #div11>h3{
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+    color: aliceblue;
+ }
+ #div11>p{
+    position: absolute;
+    bottom: 80px;
+    font-size: 30px;
+    color: aliceblue;
+ }
+ #read{
+   width: 100%;
+   height: 30px;
+   padding: 50PX;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: relative;
+    
+ }
+ #read>#read1{
+   position: absolute;
+   left: 20px;
+ }
+ #read>#read2{
+   position: absolute;
+   left: 470px;
+ }
+ #read>#read3{
+   position: absolute;
+   right: 230px;
+ }
+ #section3{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-image: url("images/about_bg.jpg");
+   position: relative;
+ }
+ #section3>#text{
+   width: 50%;
+   height: 500px;
+   position: absolute;
+   left: 10px;
+ }
+ #text>h2{
+   font-size: 50px;
+   font-weight: 400px;
+   color: #fff;
+   position: absolute;
+   top: 50px;
+ }
+ #text>p{
+   font-size: 17px;
+   color: #fff;
+   position: absolute;
+   bottom: 90px;
+   font-weight: 400;
+   line-height: 30px;
+ }
+ #text>h3{
+   position: absolute;
+   bottom: 45px;
+   color: #fff;
+   font-weight: bold;
+ }
+ #section3>#bgimg{
+   width: 50%;
+   height: 500px;
+   background-image: url("images/about.png");
+   background-repeat: no-repeat;
+   background-size: 500px;
+   position: absolute;
+   right: 0px;
+   top: 10px;
+ }
+ #content4{
+   width: 100%;
+   height: 200px;
+   position: relative;
+ }
+ #content4>center>h1{
+   position: absolute;
+   top: 50px;
+   left: 500px;
+   font-size: 50px;
+ }
+ #content4>center>p{
+   font-size: 20px;
+   position: absolute;
+   bottom: 50px;
+   left: 250px;
+ }
+ #section4{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: relative;
+ }
+ #see{
+   width: 100%;
+   height: 50px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ #section5{
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      top: 60px;
+}
+#section5>#back{
+   width: 50%;
+   height: 500px;
+   position: absolute;
+   left: 50px; 
+}
+
+#text1 {
+   top: 70px;
+   left: 626px;
+   width: 50%;
+   height: 500px;
+   position: absolute;
+}
+#text1>h2{
+   position: relative;
+   top: 0px;
+   font-size: 50px;
+}
+#text1>p{
+   position: relative;
+   font-size: 25px;
+   top: 40px;
+}
+#text1>h3{
+   position: relative;
+   bottom: -60px;
+}
+#section5{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: relative;
+   width: 100%;
+   height: 400px;
+}
+#con1{
+   position: absolute;
+   left: 0%;
+}
+#con3{
+   width: 1px;
+   height: 200px;
+   background-color: #f0390f;
+   position: absolute;
+   top: 110px;
+   left: 300px;
+}
+#con2{
+   width: 70%;
+   height: 200px;
+   position: relative;
+   left: 150px;
+   top: 30px;
+}
+#con11>button{
+   background-color: #f0380f;
+   height: 45px;
+   width: 180px;
+   border: 0px #fff;
+   border-radius: 10px;
+   position: absolute;
+   right: 20px;
+   color: #fff;
+   font-size: 17px;
+}
+#con12{
+   position: relative;
+   top: 50px;
+}
+#con121{
+   width: 80%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+#con121>li{
+   list-style:none ;
+   position: relative;
+   top: 10px;
+}
+#email2{
+   border: 0px 0px 0px 0px;
+   position: relative;
+   left: 150px;
+   color: #9e9c9c;
+   background-color: #fff;
+   border: none #fff;
+   width: 200px;
+   height: 40px;
+   font-size: 20px;
+}
+#email1{
+   border: 0px 0px 0px 0px;
+   position: relative;
+   left: 20px;
+   color: #9e9c9c;
+   background-color: #fff;
+   border: none #fff;
+   width: 200px;
+   height: 40px;
+   font-size: 20px;
+}
+#footer{
+   background-color: #f0380f;
+   height: 70px;
+   position: relative;
+}
+#footer>h3{
+   position: absolute;
+   left: 450px;
+   top: 30px;
+   color: #fff;
+}
+
+
