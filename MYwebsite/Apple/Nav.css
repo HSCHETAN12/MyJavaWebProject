@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    block-size: border-box;
+    padding: 0;
+}
+.parent{
+    position: sticky;
+    top: 0;
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid white;
+    position: relative;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#nav2>#logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 30%;
+}
+#icons{
+    position: absolute;
+    width: 10%;
+    left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bg{
+    width: 80%;
+    height:600px;
+    background-image: url("bgimg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 80% 600px;
+    left: 250px;
+}
+#main1
+{
+    width: 100%;
+    height: 400px;
+    background-color:white;
+    position: absolute;
+    top: 700px;
+}
+body{
+    background-color: black;
+}
+ #main1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+ }
+ #main1>h1{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+ }
+#main1>h1>b{
+    color: hotpink;
+}
+#contents1>li>a{
+    color: black;
+}
+#contents1>li{
+    list-style: none;
+}
+#contents1{
+ display: flex;
+ width: 100%;
+ justify-content: space-around;
+ position:absolute;
+ bottom: 60px;   
+}
+#img1{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+
